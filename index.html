@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contrat CHILL VRchat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="contrat">
+        <h1>Contrat CHILL VRchat</h1>
+        <p>
+            En acceptant ce contrat, je m'engage à ne divulguer aucune information concernant la façon de travailler,
+            les outils utilisés dans le groupe "CHILL VRchat", et à respecter les règles suivantes :
+        </p>
+        <ul>
+            <li>Modérer activement pendant au moins 3 heures par semaine.</li>
+            <li>Ne promouvoir aucun autre groupe que "CHILL VRchat".</li>
+            <li>Respecter les règlements en vigueur.</li>
+            <li>En cas d'insultes sur l'instance, ne pas expulser pour son plaisir personnel, mais simplement protéger les autres membres en cas d'insultes envers eux.</li>
+        </ul>
+        <p>
+            En signant ci-dessous, je confirme mon engagement envers les termes énoncés ci-dessus.
+        </p>
+        <canvas id="signatureCanvas" width="400" height="100"></canvas>
+        <input type="hidden" id="signature" name="signature">
+        <div class="button-container">
+            <button onclick="clearSignature()">Effacer la signature</button>
+            <button onclick="saveSignature()">Enregistrer la signature</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
